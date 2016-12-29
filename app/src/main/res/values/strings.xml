@@ -1,0 +1,11 @@
+<resources>
+
+    <!--Main Activity-->
+    <string name="app_name">HiKa Trainer</string>
+    <string name="hiragana">Hiragana</string>
+    <string name="katakana">Katakana</string>
+    <string name="info">Info</string>
+
+    <!--Hiragana Activity-->
+    <string name="learn_hiragana">Learn Hiragana</string>
+</resources>
