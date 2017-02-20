@@ -1,7 +1,9 @@
-package com.example.djones.hikatrainer;
+package com.example.djones.hikatrainer.katakana;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.example.djones.hikatrainer.R;
 
 /**
  * Created by djones on 12/29/16.

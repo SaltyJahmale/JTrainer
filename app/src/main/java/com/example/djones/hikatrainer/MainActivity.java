@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.djones.hikatrainer.hiragana.Hiragana;
+import com.example.djones.hikatrainer.katakana.Katakana;
+
 public class MainActivity extends Activity {
 
     Button button_hiragana;

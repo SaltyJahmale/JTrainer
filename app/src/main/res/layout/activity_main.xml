@@ -22,29 +22,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/main_button_hiragana"
-        tools:text="@string/hiragana"
-        android:text="Button"
+        android:text="@string/hiragana"
         android:layout_above="@+id/main_button_katakana"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="38dp" />
 
     <Button
-        android:text="Button"
+        android:text="@string/katakana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/main_button_katakana"
-        tools:text="@string/katakana"
         android:layout_above="@+id/main_button_info"
         android:layout_alignEnd="@+id/main_button_hiragana"
         android:layout_marginBottom="46dp" />
 
     <Button
-        android:text="Button"
+        android:text="@string/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/main_button_info"
         android:layout_marginBottom="96dp"
-        tools:text="@string/info"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/main_button_hiragana" />
 </RelativeLayout>

@@ -5,13 +5,60 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/hiragana_text"
-        tools:text="@string/learn_hiragana"
         android:layout_marginTop="57dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learn_hiragana" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:id="@+id/randomImage1"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:id="@+id/randomImage2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/randomImage1"
+        android:layout_marginBottom="59dp" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:id="@+id/randomImage5"
+        android:layout_marginEnd="13dp"
+        android:layout_alignTop="@+id/randomImage2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:id="@+id/randomImage4"
+        android:layout_alignTop="@+id/randomImage1"
+        android:layout_alignStart="@+id/randomImage5" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:id="@+id/randomImage3"
+        android:layout_above="@+id/randomImage5"
         android:layout_centerHorizontal="true" />
 
     <ImageView
@@ -19,49 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/hiragana_image"
-        android:layout_marginTop="79dp"
+        android:layout_marginTop="42dp"
         android:layout_below="@+id/hiragana_text"
         android:layout_centerHorizontal="true" />
-
-    <ImageButton
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:id="@+id/randomImage1"
-        android:layout_marginStart="14dp"
-        android:layout_below="@+id/hiragana_image"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/randomImage2"
-        android:layout_alignTop="@+id/randomImage1"
-        android:layout_toEndOf="@+id/randomImage1" />
-
-    <ImageButton
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/randomImage3"
-        android:layout_alignTop="@+id/randomImage2"
-        android:layout_toEndOf="@+id/randomImage2" />
-
-    <ImageButton
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/randomImage4"
-        android:layout_alignTop="@+id/randomImage3"
-        android:layout_toEndOf="@+id/randomImage3" />
-
-    <ImageButton
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/randomImage4"
-        android:layout_toEndOf="@+id/randomImage4"
-        android:id="@+id/randomImage5" />
 </RelativeLayout>
